@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <script type="module" src="./src/main/ts/index.ts"></script>
+</head>
+
+<body>
+<label for="textfield"></label>
+<input type="text" id="textfield" />
+<div id="main">
+
+</div>
+<script>
+    const injectContainer = document.getElementById('main')
+    const inject = document.createElement('custom-text-field')
+    injectContainer.appendChild(inject)
+</script>
+</body>
+</html>
